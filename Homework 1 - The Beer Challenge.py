@@ -2,7 +2,7 @@
 # Group Homework Project 1 - The Beer Challenge
 # Ryan Hatcher and Carlton Howard
 # Instructions: Create a Python Program that can keep track of the entire brewing process from start to finish.
-# TO-DO: Outline the entire brewing Process
+# TODO: Outline the entire brewing Process
 # DUE 10.04.2021 for Class CGS2060 (Intro to Computer Programming)
 #
 # All Comments go to the line(s) below them
@@ -17,7 +17,7 @@ HWBeerFunctions.addHops()
 HWBeerFunctions.prepareYeast()
 HWBeerFunctions.startFermentataion()
 
-# TO-DO: Read HW_1_Data and define the variables that the above functions require
+# TODO: Read HW_1_Data and define the variables that the above functions require
 
 # Part 1: MILL GRAIN FUNCTION
 import HWBeerFunctions
