@@ -16,3 +16,8 @@ HWBeerFunctions.heatKettle()
 HWBeerFunctions.addHops()
 HWBeerFunctions.prepareYeast()
 HWBeerFunctions.startFermentataion()
+
+# TOD O: Read HW_1_Data and define the variables that the above functions require
+
+Options = open("HW_1_Data", "r")
+
