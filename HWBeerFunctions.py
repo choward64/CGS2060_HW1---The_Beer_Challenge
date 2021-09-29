@@ -77,15 +77,15 @@ def mashConversion(action, ourWorld):
         return(0)
 
 
-    if (action == "fill"):
+    if (action == "1"):
         print("The tank is being filled.")
         return(1)
     else:
-        if (action == "heat"):
+        if (action == "2"):
             print("The tank is being heated.")
             return(1)
         else:
-            if (action == "load"):
+            if (action == "3"):
                 print("The tank is being loaded with mash.")
                 return(1)
             else:
