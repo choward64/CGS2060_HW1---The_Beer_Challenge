@@ -1,5 +1,10 @@
 100
 1 #Our World
+fill
+heat
+load
+0
+3
 1
 0
 2
