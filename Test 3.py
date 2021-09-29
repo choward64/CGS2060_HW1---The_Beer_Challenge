@@ -5,7 +5,7 @@
 # cause the malt mixture to be loaded into the mash conversion tank. A return value of "1"
 # indicates that the malt mixture has been loaded. If any of these stages returns a "0" then
 # something is wrong.
-
+# TODO: Maybe make the ourworld value increase by one every cycle
 # Importing the needed files
 import HWBeerFunctions
 Options = open("HW_1_Data.txt", "r")
@@ -21,6 +21,7 @@ HWBeerFunctions.mashConversion(
 
     if lines[1] == 0:
         action = "fill";
+
 # TODO: 1) Have it check for the return value and 2) Print that the tank is filled
 #   then 3) set the action to the "heat" variable. 4) Check the return value, if
 #   it is 1 then 5) have the action change to 2 (load).
@@ -28,6 +29,7 @@ HWBeerFunctions.mashConversion(
 #   the program with the error message "0 - ERROR Thrown by Partition 2: Mash Conversion"
 #   All of this goes off of the instructions pretty much word for word.
 
+# if ret == 0
     else:
         if
 
