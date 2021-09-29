@@ -24,7 +24,7 @@ import HWBeerFunctions
 Options = open("HW_1_Data.txt", "r")
 lines = Options.readlines()
 str(lines)
-# TODO: Implement the "the milling machine is broken" statement return if world=1 & broken > 0.5
+# TODO: Implement the "the milling machine is broken today" statement return if world=1 & broken > 0.5
 
 HWBeerFunctions.millGrain(
     barleyQuantity = lines[0],
