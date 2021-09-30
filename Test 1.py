@@ -12,20 +12,32 @@ HWBeerFunctions.millGrain(
     barleyQuantity=lines[0],
     ourWorld=lines[1],
 )
+
 var = HWBeerFunctions.mashConversion(
 
-    action="1",
+    action=1,
     ourWorld=1, # Takes the OurWorld value from ln01 of HW_Data.
 
 )
-# var = HWBeerFunctions.mashConversion()
-
-if var() == 2:
+# TODO: Find a way to get the lines value for the action then change the action value from the var value
+while action == 1:
     action = 2
-if var() == 3:
+    if var == 2:
+        action = 2
+# var = HWBeerFunctions.mashConversion()
+print(type(var))
+print(var)
+while var == 2:
+    action = 2
+
+if var == 3:
     action = 3
+
+'''
 else:
     print("Part B Completed!")
+'''
+
 
 
 # TO-DO: Read HW_1_Data and define the variables that the above functions require
