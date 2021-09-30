@@ -9,7 +9,9 @@ HWBeerFunctions.millGrain(
     barleyQuantity=lines[0],
     ourWorld=lines[1],
 )
-
+ourWorld = lines[2]
+F_OurWorld = int(ourWorld + 1)
+print(ourWorld)
 '''
 * Below we need to do the following:
     - define ourWorld, set it to two
