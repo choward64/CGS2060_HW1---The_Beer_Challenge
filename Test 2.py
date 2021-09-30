@@ -1,3 +1,8 @@
+#
+# Test environment 2
+#
+# NOTE: All comments go to the lines below them
+
 import random
 def millGrain(barleyQuantity, ourWorld):
     broken = 0.0
