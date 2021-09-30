@@ -26,20 +26,22 @@ yeastGrams = 0
 
 def millGrain(barleyQuantity, ourWorld):
     broken = 0.0
-    numTenPounds = 0
-
-    print("=== Starting The YumYum Brewing Company's Milling Process")
+    numTenPounds = 1
+    barleyQuantity = 200
+    print("=== Starting The YumYum Brewing Company's Milling Process ===")
+    str(barleyQuantity)
 
     if (ourWorld == 2):
         return(0)
 
-    broken = (random.randrange(0,100)/100)
+    broken = (random.randrange(0, 100)/100)
 
     if (broken < 0.5):
         return(0)
     else:
+
         numTenPounds = int(barleyQuantity / 10)
-        for i in range (1,numTenPounds):
+        for i in range(1, numTenPounds):
             print("{0:4d} pounds of barley have been milled".format(i*10))
         print("{0:4d} pounds of barley have been milled".format(barleyQuantity))
 
@@ -75,17 +77,17 @@ def mashConversion(action, ourWorld):
         return(0)
 
 
-    if (action == "fill"):
+    if (action == 1):
         print("The tank is being filled.")
-        return(1)
+        return(2)
     else:
-        if (action == "heat"):
+        if (action == 2):
             print("The tank is being heated.")
-            return(1)
+            return(3)
         else:
-            if (action == "load"):
+            if (action == 3):
                 print("The tank is being loaded with mash.")
-                return(1)
+                return(4)
             else:
                 print("Error: unrecognized action.")
                 exit(-1)
@@ -220,7 +222,7 @@ def prepareYeast (amountOfYeast, ourWorld):
     print("\n=== Starting The YumYum Brewing Company's Yeast Preperation Process")
 
     if (ourWorld == 11):
-        return(0);
+        return(0)
 
     if (amountOfYeast > 0):
         print("The yeast has been loaded for the fermentation step.")

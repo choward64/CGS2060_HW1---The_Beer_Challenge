@@ -1,6 +1,12 @@
 100
+1
+1
+0
+3
+1
+0
 2
-2
+0
 4
 5
 62
@@ -8,3 +14,12 @@
 35
 40
 24
+
+
+Line 1 - Barley Quantity
+Line 2 - === Our World ===
+Line 3 - Action 2 - Load for Part.B
+Line 4 -
+Line 6 - 0 for the return error thrown by Partition B
+
+# TODO: FINISH THE KEY FOR THIS FILE
