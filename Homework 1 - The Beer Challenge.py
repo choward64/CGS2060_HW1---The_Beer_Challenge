@@ -37,4 +37,3 @@ Options = open("HW_1_Data", "r")
 
 ourWorld = 2
 
-# hello
