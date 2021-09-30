@@ -10,7 +10,7 @@ HWBeerFunctions.millGrain(
     ourWorld=lines[1],
 )
 ourWorld = lines[2]
-F_OurWorld = int(ourWorld + 1)
+# F_OurWorld = int(ourWorld + 1)
 print(ourWorld)
 '''
 * Below we need to do the following:
@@ -25,9 +25,14 @@ print(ourWorld)
 '''
 HWBeerFunctions.mashConversion(
 ourWorld=2,
+    action=1,
+)
+'''
 if returnvalue == 1:
-    action=lines[2],
+    action=fill,
     ourWorld == lines[2]+1; # Takes the OurWorld value from ln01 of HW_Data.
 else:
-    print("There has been an error, program has been terminated.");
-)
+    print("There has been an error, program has been terminated.");)
+
+'''
+

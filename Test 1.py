@@ -1,4 +1,5 @@
 # Importing the Functions he provides us
+# from builtins import function
 
 import HWBeerFunctions
 Options = open("HW_1_Data.txt", "r")
@@ -11,12 +12,20 @@ HWBeerFunctions.millGrain(
     barleyQuantity=lines[0],
     ourWorld=lines[1],
 )
-HWBeerFunctions.mashConversion(
-    action=lines[2],
-    ourWorld=int(D_OurWorld+"1") # Takes the OurWorld value from ln01 of HW_Data.
+var = HWBeerFunctions.mashConversion(
+
+    action="1",
+    ourWorld=1, # Takes the OurWorld value from ln01 of HW_Data.
 
 )
+# var = HWBeerFunctions.mashConversion()
 
+if var() == 2:
+    action = 2
+if var() == 3:
+    action = 3
+else:
+    print("Part B Completed!")
 
 
 # TO-DO: Read HW_1_Data and define the variables that the above functions require
