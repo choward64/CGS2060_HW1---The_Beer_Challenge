@@ -10,6 +10,7 @@ HWBeerFunctions.millGrain(
     ourWorld=lines[1],
 )
 ourWorld = lines[2]
+actions = lines[1]
 # F_OurWorld = int(ourWorld + 1)
 print(ourWorld)
 '''
@@ -24,7 +25,7 @@ print(ourWorld)
             + ERROR CODE 0 - if a return value of 0 is sent 
 '''
 HWBeerFunctions.mashConversion(
-ourWorld=2,
+ourWorld=ourWorld,
     action=1,
 )
 '''
