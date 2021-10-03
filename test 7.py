@@ -15,6 +15,6 @@ try:
     else:
         print("Ketle was heated.")
 except ValueError:
-    Print("something went wrong")
+    print("something went wrong") # Changed this to make it work, the P was capitalized.
     exit(-1)
 
