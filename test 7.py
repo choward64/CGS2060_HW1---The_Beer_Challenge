@@ -1,8 +1,8 @@
 
 
 
-import HWBeerFunctions
-HWBeerFunctions.heatKettle()
+import HW1BeerFunctions_New
+HW1BeerFunctions_New.heatKettle()
 
 infile = open("HW_1_Data.txt", "r")
 

@@ -6,9 +6,9 @@ from HW1BeerFunctions import addHops
 
 infile = open("HW_1_Data.txt","r")
 Gallons_Of_Beer = int(infile.readlines().strip())
-Ratio_Of_Malt = int(infile.readlines().strip())
+
 Pounds_Of_Hops = int(infile.readlines().strip())
-Grams_Of_Yeast = int(infile.readlines().strip())
+
 
 WORLD = 0
 
