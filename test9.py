@@ -5,7 +5,7 @@ from HW1BeerFunctions import prepareYeast
 
 infile = open("HW_1_Data.txt","r")
 
-Grams_Of_Yeast = int(infile.readlines().strip())
+Grams_Of_Yeast = int(infile.readline().strip())
 
 WORLD = 0
 
