@@ -18,7 +18,7 @@ barleyQuantity = Gallons_Of_Beer * Ratio_Of_Malt
 Pounds_Of_Malt = 0
 
 while True:
-    Pounds_Of_Malt = millGrain(barleyQuantity, WORLD)
+    Pounds_Of_Malt = millGrain*(barleyQuantity, WORLD)
     if Pounds_Of_Malt == 0:
         print("The Milling Machine Was Broken. Trying Again...")
     else:

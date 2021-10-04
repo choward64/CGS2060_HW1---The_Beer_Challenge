@@ -2,7 +2,9 @@
 
 
 import HW1BeerFunctions_New
-HW1BeerFunctions_New.heatKettle()
+HW1BeerFunctions_New.heatKettle(
+
+    onOff=0,ourWorld=0)
 
 infile = open("HW_1_Data.txt", "r")
 
