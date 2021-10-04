@@ -32,7 +32,7 @@ mashConversion = HW1BeerFunctions_New.mashConversion(
 worked = 0
 
 try:
-    worked = mashConversion(0, WORLD)
+    worked = mashConversion*(0, WORLD)
     if worked == 0:
         raise ValueError
     else:
@@ -42,17 +42,17 @@ except ValueError:
     exit(-1)
 
 try:
-    worked = mashConversion(1, WORLD)
+    worked = mashConversion*(1, WORLD)
     if worked == 0:
         raise ValueError
     else:
-        print("The tank has been heated.")
+        print("The tank has been heated!")
 except ValueError:
     print("Oops, Something went wrong!")
     exit(-1)
 
 try:
-    worked = mashConversion(2, WORLD)
+    worked = mashConversion*(2, WORLD)
     if worked == 0:
         raise ValueError
     else:

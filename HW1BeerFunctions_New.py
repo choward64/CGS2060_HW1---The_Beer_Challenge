@@ -28,7 +28,7 @@ def millGrain(barleyQuantity, ourWorld):
     broken = 0.0
     numTenPounds = 0
 
-    print("=== Starting The YumYum Brewing Company's Milling Process")
+    print("=== Starting The YumYum Brewing Company's Milling Process ===")
 
     if (ourWorld == 2):
         return(0)
@@ -69,14 +69,14 @@ def millGrain(barleyQuantity, ourWorld):
 
 def mashConversion(action, ourWorld):
 
-    print("\n=== Starting The YumYum Brewing Company's Mash Conversion")
+    print("\n=== Starting The YumYum Brewing Company's Mash Conversion ===")
 
     if (ourWorld == 3):
         return(0)
 
 
     if (action == 0):
-        print("The tank is being filled.")
+        print("The tank is being filled!")
         return(1)
     else:
         if (action == 1):
@@ -111,7 +111,7 @@ def mashConversion(action, ourWorld):
 
 def kettle (mashQuantity, ourWorld):
 
-    print("\n=== Starting The YumYum Brewing Company's Kettle Process")
+    print("\n=== Starting The YumYum Brewing Company's Kettle Process ===")
 
     if (ourWorld == 6):
         return 0
