@@ -1,8 +1,7 @@
 #
 # Group Homework Project 1 - The Beer Challenge
-# Ryan Hatcher and Carlton Howard
+# Carlton Howard and Ryan Hatcher
 # Instructions: Create a Python Program that can keep track of the entire brewing process from start to finish.
-# TODO: Outline the entire brewing Process
 # DUE 10.04.2021 for Class CGS2060 (Intro to Computer Programming)
 #
 # All Comments go to the line(s) below them
@@ -45,7 +44,6 @@ mashConversion = HW1BeerFunctions_New.mashConversion(
 )
 
 # Part 2 - mashConversion
-
 worked = 0
 
 try:
@@ -77,6 +75,7 @@ try:
 except ValueError:
     print("Oops, Something went wrong!")
     exit(-1)
+
 # Part 3 - Kettle
 infile = open("Hw_1_Data.txt","r")
 
@@ -115,12 +114,7 @@ except ValueError:
     exit(-1)
 
 # Part 5 - addHops
-
-
 from HW1BeerFunctions import addHops
-
-
-
 
 infile = open("HW_1_Data.txt","r")
 Gallons_Of_Beer = int(infile.readline().strip())
@@ -162,10 +156,10 @@ try:
 except ValueError:
     print("Oops, Something went wrong!")
     exit(-1)
-# Part 7 - start Fermentation
 
+# Part 7 - start Fermentation
 try:
-    Fermentation = HW1BeerFunctions_New.startFermentatation(Gallons_Of_Beer, WORLD)
+    Fermentation = HW1BeerFunctions_New.startFermentatation(Gallons_Of_Beer, 1, WORLD)
     if Fermentation == 0:
         raise ValueError
     else:
