@@ -15,7 +15,7 @@
 from HW1BeerFunctions import kettle
 
 
-infile = open("Hw_1_DAta.txt","r")
+infile = open("Hw_1_Data.txt","r")
 
 
 WORLD = 0

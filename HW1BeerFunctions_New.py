@@ -81,7 +81,7 @@ def mashConversion(action, ourWorld):
     else:
         if (action == 1):
             print("The tank is being heated.")
-            return(1)
+            return(2)
         else:
             if (action == 2):
                 print("The tank is being loaded with mash.")
@@ -233,7 +233,7 @@ def prepareYeast (amountOfYeast, ourWorld):
     return 1
 
 
-'''
+'''               
  * Function Name: startFermentataion
  * Function ID: 12
  *
@@ -252,7 +252,7 @@ def prepareYeast (amountOfYeast, ourWorld):
  '''
 
 
-def startFermentataion (maltAmount, action, ourWorld):
+def startFermentatation (maltAmount, action, ourWorld):
 
     print("\n=== Starting The YumYum Brewing Company's Yeast Fermentation Process")
 
