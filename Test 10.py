@@ -8,9 +8,11 @@ Grams_Of_Yeast = int(Options.readline().strip())
 
 WORLD = 0
 
+# TODO: here, this is where I "fixed" it, I define the variables that it requires in the parenthesis.
+#    Now we just have to fix the int call errors
 millGrain = HW1BeerFunctions_New.millGrain(
     barleyQuantity = Gallons_Of_Beer * Ratio_Of_Malt,
-    ourWorld = int(WORLD),
+    ourWorld = WORLD,
 
 )
 
@@ -24,8 +26,8 @@ while True:
     else:
         break
 mashConversion = HW1BeerFunctions_New.mashConversion(
-   # ourWorld = int(WORLD),
-   # action = 0,
+    ourWorld = WORLD,
+    action = 0,
 )
 worked = 0
 
